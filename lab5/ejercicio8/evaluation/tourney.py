@@ -78,5 +78,4 @@ def simulateTourney(players):
 
     # Ordenar tabla según puntaje
     table = sorted(table.items(), key=lambda x: x[1][0], reverse=True)
-    print(table)
     return table
